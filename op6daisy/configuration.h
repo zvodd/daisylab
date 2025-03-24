@@ -17,8 +17,8 @@
 
 // MIDI over USB or MIDI-in from MIDI Port
 // configure exactly one of them, comment out the other
-#define CONFIG_USB_MIDI
-//#define CONFIG_UART_MIDI
+//#define CONFIG_USB_MIDI
+#define CONFIG_UART_MIDI
 
 // Use SAI2 for digital audio output (in addition to analog audio output)
 #define WITH_SAI2
